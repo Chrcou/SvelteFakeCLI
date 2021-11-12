@@ -1,0 +1,22 @@
+{
+  "name": "sveltefakecli",
+  "version": "1.0.0",
+  "description": "A simple components which create components folders with .scss and .svelte file (designed to work with scss and ts)",
+  "main": "generatesComponents.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrcou/SvelteFakeCLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrcou/SvelteFakeCLI/issues"
+  },
+  "homepage": "https://github.com/Chrcou/SvelteFakeCLI#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

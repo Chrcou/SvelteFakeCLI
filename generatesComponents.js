@@ -21,7 +21,7 @@ function makeComponentsFolder(path, cb) {
       if (err.code === "EEXIST") {
         cb();
       } else {
-        return console.error(err.code);
+        return console.error(err);
       }
     } else {
       console.log("Directory created successfully : " + path);
